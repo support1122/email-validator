@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.venv
+
+# OS
+.DS_Store
+
+# Reports and outputs
+email_validation_report.txt
+deliverable_emails.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets (use environment variables instead)
+*.env
+.env.local
+
