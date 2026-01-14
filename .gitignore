@@ -1,26 +1,27 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
+*.py[cod]
+*$py.class
+*.so
+.Python
 venv/
-.env
-.venv
+env/
+ENV/
 
-# OS
-.DS_Store
+# Validation sessions
+validation_sessions/
+*.json
 
-# Reports and outputs
-email_validation_report.txt
-deliverable_emails.txt
+# Logs
+*.log
+app.log
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Secrets (use environment variables instead)
-*.env
-.env.local
-
+# OS
+.DS_Store
+Thumbs.db
